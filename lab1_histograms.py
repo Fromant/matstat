@@ -12,7 +12,7 @@ distributions = {
     'Normal': {'func': stats.norm, 'params': (0, 1), 'label': 'N(0, 1)'},
     'Cauchy': {'func': stats.cauchy, 'params': (0, 1), 'label': 'C(0, 1)'},
     'Laplace': {'func': stats.laplace, 'params': (0, 1/np.sqrt(2)), 'label': 'L(0, 1/sqrt(2))'},
-    'Poisson': {'func': stats.poisson, 'params': (10,), 'label': 'P(10)', 'discrete': True},
+    'Poisson': {'func': stats.poisson, 'params': (5,), 'label': 'P(5)', 'discrete': True},
     'Uniform': {'func': stats.uniform, 'params': (-np.sqrt(3), 2*np.sqrt(3)), 'label': 'U(-sqrt(3), sqrt(3))'}
 }
 
@@ -29,6 +29,8 @@ def plot_histogram_with_density(dist_name, dist_info, n, ax):
         sample = sample[np.abs(sample) < 10] # обрезать выбросы
     if dist_name == 'Normal':
         ax.set_xlim(-4, 4)  # Показываем только основную часть
+    if dist_name == 'Poisson':
+        ax.set_xlim(0, 10)  # Показываем только основную часть
     
     ax.hist(sample, bins='auto', density=True, alpha=0.6, color='skyblue', 
             edgecolor='black')
@@ -36,7 +38,7 @@ def plot_histogram_with_density(dist_name, dist_info, n, ax):
     # Теоретическая плотность
     x_min, x_max = min(min(sample), -4), max(max(sample), 4)
     if(dist_info.get('discrete', False)):
-        x_vals = np.arange(min(sample), max(sample) + 1) # integers only
+        x_vals = np.arange(0, 11) # integers only
         pdf = dist_info['func'].pmf(x_vals, *dist_info['params'])
     else:
         x_vals = np.linspace(x_min, x_max, 1000)
