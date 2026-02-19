@@ -11,7 +11,7 @@ distributions = {
     'Normal': {'func': stats.norm, 'params': (0, 1), 'label': 'N(0, 1)', 'theoretical_mean': 0},
     'Cauchy': {'func': stats.cauchy, 'params': (0, 1), 'label': 'C(0, 1)', 'theoretical_mean': None},
     'Laplace': {'func': stats.laplace, 'params': (0, 1/np.sqrt(2)), 'label': 'L(0, 1/√2)', 'theoretical_mean': 0},
-    'Poisson': {'func': stats.poisson, 'params': (10,), 'label': 'P(10)', 'theoretical_mean': 10},
+    'Poisson': {'func': stats.poisson, 'params': (5,), 'label': 'P(10)', 'theoretical_mean': 10},
     'Uniform': {'func': stats.uniform, 'params': (-np.sqrt(3), 2*np.sqrt(3)), 'label': 'U(-√3, √3)', 'theoretical_mean': 0}
 }
 

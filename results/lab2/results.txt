@@ -6,123 +6,123 @@ Normal (N(0, 1)):
 --------------------------------------------------------------------------------
 
 n = 10:
-  mean           : E =   0.0019, D =   0.0985, std =   0.3139
-  median         : E =  -0.0007, D =   0.1223, std =   0.3497
-  mid_range      : E =  -0.0072, D =   0.1821, std =   0.4268
-  mid_quartile   : E =   0.0101, D =   0.1095, std =   0.3308
-  trimmed_mean   : E =   0.0019, D =   0.0994, std =   0.3153
+  mean           : E =   0.0094, D =   0.0938, std =   0.3062
+  median         : E =  -0.0068, D =   0.1375, std =   0.3708
+  mid_range      : E =   0.0275, D =   0.1747, std =   0.4179
+  mid_quartile   : E =   0.0041, D =   0.1098, std =   0.3314
+  trimmed_mean   : E =   0.0009, D =   0.0924, std =   0.3041
 
 n = 100:
-  mean           : E =   0.0027, D =   0.0102, std =   0.1011
-  median         : E =   0.0015, D =   0.0169, std =   0.1301
-  mid_range      : E =  -0.0119, D =   0.0959, std =   0.3097
-  mid_quartile   : E =   0.0035, D =   0.0119, std =   0.1090
-  trimmed_mean   : E =   0.0003, D =   0.0101, std =   0.1006
+  mean           : E =  -0.0004, D =   0.0096, std =   0.0979
+  median         : E =   0.0000, D =   0.0138, std =   0.1175
+  mid_range      : E =   0.0071, D =   0.0882, std =   0.2970
+  mid_quartile   : E =  -0.0029, D =   0.0127, std =   0.1125
+  trimmed_mean   : E =  -0.0017, D =   0.0100, std =   0.1002
 
 n = 1000:
-  mean           : E =   0.0023, D =   0.0011, std =   0.0330
-  median         : E =  -0.0005, D =   0.0016, std =   0.0398
-  mid_range      : E =   0.0165, D =   0.0653, std =   0.2556
-  mid_quartile   : E =  -0.0007, D =   0.0013, std =   0.0355
-  trimmed_mean   : E =  -0.0002, D =   0.0010, std =   0.0322
+  mean           : E =  -0.0002, D =   0.0010, std =   0.0313
+  median         : E =  -0.0005, D =   0.0015, std =   0.0393
+  mid_range      : E =  -0.0036, D =   0.0672, std =   0.2592
+  mid_quartile   : E =   0.0002, D =   0.0012, std =   0.0345
+  trimmed_mean   : E =  -0.0007, D =   0.0011, std =   0.0334
 
 Cauchy (C(0, 1)):
 Теоретическое среднее: None
 --------------------------------------------------------------------------------
 
 n = 10:
-  mean           : E =  -0.0244, D =   0.6216, std =   0.7884
-  median         : E =   0.0008, D =   0.3293, std =   0.5738
-  mid_range      : E =  -1.1592, D = 10564.0285, std = 102.7815
-  mid_quartile   : E =  -0.0298, D =   1.2387, std =   1.1130
-  trimmed_mean   : E =  -0.0184, D =   1.6049, std =   1.2669
+  mean           : E =  -0.0214, D =   0.5615, std =   0.7494
+  median         : E =  -0.0306, D =   0.3049, std =   0.5522
+  mid_range      : E =   2.9567, D = 420507.4969, std = 648.4655
+  mid_quartile   : E =  -0.0008, D =   1.1887, std =   1.0903
+  trimmed_mean   : E =  -0.0371, D =   3.1408, std =   1.7722
 
 n = 100:
-  mean           : E =  -0.0034, D =   0.0656, std =   0.2560
-  median         : E =  -0.0002, D =   0.0234, std =   0.1529
-  mid_range      : E = -2385.7226, D = 5728104392.6652, std = 75684.2414
-  mid_quartile   : E =   0.0081, D =   0.0509, std =   0.2257
-  trimmed_mean   : E =  -0.0058, D =   0.0529, std =   0.2300
+  mean           : E =   0.0078, D =   0.0620, std =   0.2490
+  median         : E =  -0.0033, D =   0.0240, std =   0.1548
+  mid_range      : E = 101.2877, D = 2846960.4280, std = 1687.2938
+  mid_quartile   : E =   0.0036, D =   0.0523, std =   0.2286
+  trimmed_mean   : E =   0.0004, D =   0.0476, std =   0.2181
 
 n = 1000:
-  mean           : E =   0.0017, D =   0.0058, std =   0.0764
-  median         : E =  -0.0012, D =   0.0025, std =   0.0495
-  mid_range      : E = -2282.6417, D = 1643435840.1631, std = 40539.3123
-  mid_quartile   : E =  -0.0030, D =   0.0052, std =   0.0722
-  trimmed_mean   : E =   0.0014, D =   0.0047, std =   0.0687
+  mean           : E =  -0.0018, D =   0.0061, std =   0.0779
+  median         : E =   0.0014, D =   0.0026, std =   0.0509
+  mid_range      : E = 502.8325, D = 518367162.9435, std = 22767.6780
+  mid_quartile   : E =   0.0017, D =   0.0049, std =   0.0698
+  trimmed_mean   : E =  -0.0052, D =   0.0047, std =   0.0682
 
 Laplace (L(0, 1/√2)):
 Теоретическое среднее: 0
 --------------------------------------------------------------------------------
 
 n = 10:
-  mean           : E =  -0.0061, D =   0.0988, std =   0.3144
-  median         : E =  -0.0041, D =   0.0780, std =   0.2792
-  mid_range      : E =   0.0204, D =   0.4176, std =   0.6462
-  mid_quartile   : E =  -0.0004, D =   0.0894, std =   0.2991
-  trimmed_mean   : E =  -0.0093, D =   0.0808, std =   0.2842
+  mean           : E =  -0.0078, D =   0.0992, std =   0.3149
+  median         : E =   0.0092, D =   0.0700, std =   0.2645
+  mid_range      : E =   0.0261, D =   0.4054, std =   0.6367
+  mid_quartile   : E =  -0.0093, D =   0.0879, std =   0.2964
+  trimmed_mean   : E =  -0.0002, D =   0.0788, std =   0.2807
 
 n = 100:
-  mean           : E =   0.0039, D =   0.0098, std =   0.0991
-  median         : E =  -0.0044, D =   0.0061, std =   0.0780
-  mid_range      : E =   0.0084, D =   0.4002, std =   0.6326
-  mid_quartile   : E =  -0.0005, D =   0.0101, std =   0.1003
-  trimmed_mean   : E =   0.0003, D =   0.0073, std =   0.0855
+  mean           : E =   0.0006, D =   0.0095, std =   0.0976
+  median         : E =  -0.0052, D =   0.0062, std =   0.0790
+  mid_range      : E =  -0.0239, D =   0.4101, std =   0.6404
+  mid_quartile   : E =  -0.0007, D =   0.0096, std =   0.0979
+  trimmed_mean   : E =  -0.0043, D =   0.0074, std =   0.0858
 
 n = 1000:
-  mean           : E =   0.0012, D =   0.0011, std =   0.0328
-  median         : E =  -0.0007, D =   0.0005, std =   0.0230
-  mid_range      : E =   0.0389, D =   0.4199, std =   0.6480
-  mid_quartile   : E =   0.0008, D =   0.0010, std =   0.0314
-  trimmed_mean   : E =   0.0003, D =   0.0007, std =   0.0274
+  mean           : E =   0.0005, D =   0.0010, std =   0.0316
+  median         : E =   0.0002, D =   0.0005, std =   0.0227
+  mid_range      : E =  -0.0086, D =   0.4320, std =   0.6573
+  mid_quartile   : E =   0.0004, D =   0.0010, std =   0.0317
+  trimmed_mean   : E =  -0.0004, D =   0.0007, std =   0.0267
 
 Poisson (P(10)):
 Теоретическое среднее: 10
 --------------------------------------------------------------------------------
 
 n = 10:
-  mean           : E =   9.9945, D =   1.0260, std =   1.0129
-  median         : E =   9.8400, D =   1.4029, std =   1.1844
-  mid_range      : E =  10.2790, D =   1.7037, std =   1.3052
-  mid_quartile   : E =   9.9284, D =   1.1871, std =   1.0896
-  trimmed_mean   : E =   9.8865, D =   1.0426, std =   1.0211
+  mean           : E =   5.0013, D =   0.5245, std =   0.7242
+  median         : E =   4.8470, D =   0.6686, std =   0.8177
+  mid_range      : E =   5.3040, D =   0.9046, std =   0.9511
+  mid_quartile   : E =   4.9192, D =   0.5635, std =   0.7507
+  trimmed_mean   : E =   4.9224, D =   0.5527, std =   0.7434
 
 n = 100:
-  mean           : E =   9.9905, D =   0.0965, std =   0.3106
-  median         : E =   9.8545, D =   0.2121, std =   0.4605
-  mid_range      : E =  10.9160, D =   0.9534, std =   0.9764
-  mid_quartile   : E =   9.9147, D =   0.1538, std =   0.3922
-  trimmed_mean   : E =   9.9117, D =   0.1038, std =   0.3222
+  mean           : E =   5.0087, D =   0.0482, std =   0.2195
+  median         : E =   4.8825, D =   0.1104, std =   0.3323
+  mid_range      : E =   5.9990, D =   0.5225, std =   0.7228
+  mid_quartile   : E =   4.8900, D =   0.1424, std =   0.3774
+  trimmed_mean   : E =   4.9120, D =   0.0529, std =   0.2300
 
 n = 1000:
-  mean           : E =  10.0017, D =   0.0099, std =   0.0996
-  median         : E =   9.9925, D =   0.0072, std =   0.0848
-  mid_range      : E =  11.6930, D =   0.6853, std =   0.8278
-  mid_quartile   : E =   9.9891, D =   0.0052, std =   0.0720
-  trimmed_mean   : E =   9.9063, D =   0.0106, std =   0.1028
+  mean           : E =   5.0050, D =   0.0051, std =   0.0713
+  median         : E =   5.0000, D =   0.0000, std =   0.0000
+  mid_range      : E =   6.8365, D =   0.3365, std =   0.5801
+  mid_quartile   : E =   4.6721, D =   0.0804, std =   0.2836
+  trimmed_mean   : E =   4.9071, D =   0.0056, std =   0.0746
 
 Uniform (U(-√3, √3)):
 Теоретическое среднее: 0
 --------------------------------------------------------------------------------
 
 n = 10:
-  mean           : E =  -0.0059, D =   0.0925, std =   0.3042
-  median         : E =  -0.0016, D =   0.2289, std =   0.4784
-  mid_range      : E =   0.0077, D =   0.0489, std =   0.2210
-  mid_quartile   : E =  -0.0029, D =   0.1393, std =   0.3732
-  trimmed_mean   : E =   0.0004, D =   0.1322, std =   0.3636
+  mean           : E =  -0.0155, D =   0.0991, std =   0.3148
+  median         : E =   0.0078, D =   0.2252, std =   0.4746
+  mid_range      : E =   0.0143, D =   0.0477, std =   0.2185
+  mid_quartile   : E =  -0.0012, D =   0.1432, std =   0.3784
+  trimmed_mean   : E =   0.0162, D =   0.1324, std =   0.3638
 
 n = 100:
-  mean           : E =  -0.0006, D =   0.0097, std =   0.0985
-  median         : E =  -0.0085, D =   0.0301, std =   0.1735
-  mid_range      : E =  -0.0003, D =   0.0006, std =   0.0242
-  mid_quartile   : E =  -0.0080, D =   0.0146, std =   0.1209
-  trimmed_mean   : E =  -0.0015, D =   0.0140, std =   0.1183
+  mean           : E =  -0.0000, D =   0.0100, std =   0.1000
+  median         : E =  -0.0048, D =   0.0274, std =   0.1655
+  mid_range      : E =  -0.0002, D =   0.0006, std =   0.0245
+  mid_quartile   : E =  -0.0018, D =   0.0151, std =   0.1231
+  trimmed_mean   : E =   0.0018, D =   0.0136, std =   0.1168
 
 n = 1000:
-  mean           : E =   0.0007, D =   0.0010, std =   0.0320
-  median         : E =   0.0000, D =   0.0030, std =   0.0549
-  mid_range      : E =   0.0001, D =   0.0000, std =   0.0023
-  mid_quartile   : E =   0.0011, D =   0.0015, std =   0.0386
-  trimmed_mean   : E =  -0.0003, D =   0.0014, std =   0.0375
+  mean           : E =   0.0009, D =   0.0010, std =   0.0309
+  median         : E =   0.0015, D =   0.0032, std =   0.0569
+  mid_range      : E =   0.0000, D =   0.0000, std =   0.0025
+  mid_quartile   : E =  -0.0011, D =   0.0015, std =   0.0389
+  trimmed_mean   : E =   0.0010, D =   0.0014, std =   0.0373
 
